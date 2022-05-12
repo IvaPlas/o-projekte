@@ -3,20 +3,29 @@ import { createRoot } from 'react-dom/client';
 import './style.css';
 
 const App = () => (
-  <div className="container">
+  <div class="kontejner">
     <header>
-      <div className="logo"></div>
-      <h1>Webová aplikace</h1>
+      <h1>Trefa na kôš</h1>
+      <p>projekt Zuzky Nemesovej a Ivi Plašienkovej</p>
     </header>
-    <main>
-      <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
-    </main>
-    <footer>
-      <p>Czechitas, Digitální akademie: Web</p>
-    </footer>
+    <div class="navigace">
+      <button type="menu">O nás</button>
+      <button type="menu">Trefa na kôš</button>
+    </div>
+    <div class="uvod">
+      <h1>My dve</h1>
+      <img id="my_dve" src="img/zuzka_a_iva.jpg" alt="Zuzka a Iva" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+        eaque? Aliquid est nesciunt atque. Ducimus eum voluptatem necessitatibus
+        consequatur! Autem, unde. Rerum consequuntur dignissimos omnis rem at id
+        nemo amet?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Numquam corporis iste dolor animi, reprehenderit ipsam corrupti magni
+        quaerat fuga sunt amet voluptatem! Ipsam aut rerum aspernatur doloremque
+        minus atque dolore?
+      </p>
+    </div>
   </div>
 );
 
-createRoot(
-  document.querySelector('#app')
-).render(<App />);
+createRoot(document.querySelector('#app')).render(<App />);
