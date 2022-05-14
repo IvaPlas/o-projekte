@@ -3,16 +3,16 @@ import img from './img/photo1.jpg';
 
 export const Project = () => {
   return (
-    <div class="kontejner">
+    <div className="kontejner">
       <header>
         <h1>Trefa na kôš</h1>
         <p>projekt Zuzky Nemesovej a Ivi Plašienkovej</p>
       </header>
-      <div class="navigace">
+      <div className="navigace">
         <button type="menu">O nás</button>
         <button type="menu">O projekte</button>
       </div>
-      <div class="uvod">
+      <div className="uvod">
         <h1>My dve</h1>
         <img id="my_dve" src={img} alt="Zuzka a Iva" />
         <p>
