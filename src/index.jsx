@@ -14,7 +14,7 @@ const App = () => (
     </div>
     <div class="uvod">
       <h1>My dve</h1>
-      <img id="my_dve" src="img/zuzka_a_iva.jpg" alt="Zuzka a Iva" />
+      <img id="my_dve" src="assets/img/zuzka_a_iva.jpg" alt="Zuzka a Iva" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
         eaque? Aliquid est nesciunt atque. Ducimus eum voluptatem necessitatibus
