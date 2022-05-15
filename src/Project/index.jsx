@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './img/photo1.jpg';
+import './style.css';
 
 export const Project = () => {
   return (
@@ -14,7 +14,7 @@ export const Project = () => {
   </div>*/}
       <div className="uvod">
         <h1>My dve</h1>
-        <img id="my_dve" src={img} alt="Zuzka a Iva" />
+        <img id="my_dve" src="assets\img\zuzka_a_iva.jpg" alt="Zuzka a Iva" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
           eaque? Aliquid est nesciunt atque. Ducimus eum voluptatem
