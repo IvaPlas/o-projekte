@@ -6,39 +6,50 @@
 
 html {
   font-family: 'Raleway', sans-serif;
+  background-color: #96f0f799;
 }
 
-.kontejner {
+.main {
+  text-align: center;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+}
+/*.main__navigace {
+  height: 35rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 26rem;
-  margin-right: auto;
-  margin-left: auto;
+  /*justify-content: space-between;
+}*/
+.main__obsah {
+  margin: 2rem;
 }
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+.main__obsah > p {
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
-
-.navigace {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1rem;
-  width: 50%;
+/*.btn__nav {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  /*background-color: #37b18f99;*/
+/*}
+.btn--projekt {
+  background-image: url('./icons8-recycle-64.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.uvod {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#my_dve {
-  max-width: 50%;
-  border-radius: 25px;
-}
+.btn--my {
+  background-image: url('./icons8-best-friend-64.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: cover;*/
+/*}
+.btn--domov {
+  background-image: url('./icons8-home-page-100.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}*/

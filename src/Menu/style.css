@@ -1,0 +1,29 @@
+.main__navigace {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+}
+
+.btn__nav {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  /*background-color: #37b18f99;*/
+}
+.btn--projekt {
+  background-image: url('./img/icons8-recycle-64.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn--my {
+  background-image: url('./img/icons8-best-friend-64.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: cover;*/
+}
+.btn--domov {
+  background-image: url('./img/icons8-home-page-100.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}

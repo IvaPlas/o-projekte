@@ -8,10 +8,10 @@ export const Project = () => {
         <h1>Trefa na kôš</h1>
         <p>projekt Zuzky Nemesovej a Ivi Plašienkovej</p>
       </header>
-      <div className="navigace">
+      {/*<div className="navigace">
         <button type="menu">O nás</button>
         <button type="menu">O projekte</button>
-      </div>
+  </div>*/}
       <div className="uvod">
         <h1>My dve</h1>
         <img id="my_dve" src={img} alt="Zuzka a Iva" />

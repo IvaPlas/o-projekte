@@ -1,0 +1,38 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+.kontejner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 26rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.navigace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  width: 50%;
+}
+
+.uvod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#my_dve {
+  max-width: 50%;
+  border-radius: 25px;
+}
