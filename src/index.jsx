@@ -1,7 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { Project } from './Project';
 import './style.css';
 
+<<<<<<< HEAD
 const App = () => (
   <div class="kontejner">
     <header>
@@ -27,5 +29,8 @@ const App = () => (
     </div>
   </div>
 );
+=======
+const App = () => <Project />;
+>>>>>>> 8977825b9eb4e37039d7c01dd603307957edbbc5
 
 createRoot(document.querySelector('#app')).render(<App />);
