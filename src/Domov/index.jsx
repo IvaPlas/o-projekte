@@ -2,17 +2,17 @@ import React from 'react';
 import { Menu } from '../Menu';
 import './style.css';
 
-export const Main = () => {
+export const Domov = () => {
   return (
-    <div className="main">
-      <div className="main__obsah">
-        <h1>Vitajte na našich mikrostránkach</h1>
-        <p>
-          Chceli by sme Vám v skratke predstaviť náš projekt, ktorý chystáme v
-          rámci akadémie Czechitas. Môžete sa dozvedieť aj o nás, inšpiráciách a
-          čo za tým všetkým je.
-        </p>
-      </div>
+    <div className="domov">
+      <header className="domov__hlavicka">
+        Vitajte na našich mikrostránkach
+      </header>
+      <p>
+        Chceli by sme Vám v skratke predstaviť náš projekt, ktorý chystáme v
+        rámci akadémie Czechitas. Môžete sa dozvedieť aj o nás, inšpiráciách a
+        čo za tým všetkým je.
+      </p>
       <Menu />
       {/* <div className="main__navigace">
         <button className="btn__nav btn--domov"></button>

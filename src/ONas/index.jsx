@@ -2,22 +2,16 @@ import React from 'react';
 import './style.css';
 import { Menu } from '../Menu';
 
-export const Project = () => {
+export const ONas = () => {
   return (
-    <div className="kontejner">
-      <header>
-        <h1>Trefa na kôš</h1>
-        <p>projekt Zuzky Nemesovej a Ivi Plašienkovej</p>
+    <div className="ONas">
+      <header className="ONas__hlavicka">
+        <h1>O nás</h1>
       </header>
       <Menu />
-      {/*<div className="navigace">
-        <button type="menu">O nás</button>
-        <button type="menu">O projekte</button>
-  </div>*/}
-      <div className="uvod">
-        <h1>My dve</h1>
-        <img id="my_dve" src="assets\img\zuzka_a_iva.jpg" alt="Zuzka a Iva" />
-        <p>
+      <div className="ONas__uvod">
+        <img id="my__dve" src="assets\img\zuzka_a_iva.jpg" alt="Zuzka a Iva" />
+        <p className="ONas__text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
           eaque? Aliquid est nesciunt atque. Ducimus eum voluptatem
           necessitatibus consequatur! Autem, unde. Rerum consequuntur

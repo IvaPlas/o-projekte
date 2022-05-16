@@ -1,12 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Project } from './Project';
+import { ONas } from './ONas';
 import { Menu } from './Menu';
-import { Main } from './Main';
+import { Domov } from './Domov';
 import './style.css';
 
 const App = () => {
-  return <Main />;
+  return <Domov />;
 };
 
 createRoot(document.querySelector('#app')).render(<App />);

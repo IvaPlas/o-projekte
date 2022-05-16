@@ -1,0 +1,12 @@
+.Projekt__hlavicka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.Projekt__opis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

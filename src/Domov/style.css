@@ -1,0 +1,17 @@
+.domov {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 10px;
+  max-width: 26rem;
+  max-width: 26rem;
+  margin: auto;
+}
+
+.domov__obsah {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 2rem;
+}
