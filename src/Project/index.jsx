@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Menu } from '../Menu';
 
 export const Project = () => {
   return (
@@ -8,6 +9,7 @@ export const Project = () => {
         <h1>Trefa na kôš</h1>
         <p>projekt Zuzky Nemesovej a Ivi Plašienkovej</p>
       </header>
+      <Menu />
       {/*<div className="navigace">
         <button type="menu">O nás</button>
         <button type="menu">O projekte</button>
