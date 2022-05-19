@@ -16,6 +16,7 @@ const App = () => {
         </p>
       </div>
       <Menu />
+
       {/* <div className="main__navigace">
         <button className="btn__nav btn--domov"></button>
         <p>Domov</p>
