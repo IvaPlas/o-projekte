@@ -3,7 +3,7 @@ import './style.css';
 
 export const Menu = () => {
   return (
-    <div className="main__navigace">
+    <div className="Menu__navigace">
       <button className="btn__nav btn--domov"></button>
       <p>Domov</p>
       <button className="btn__nav btn--projekt"></button>
