@@ -1,24 +1,30 @@
 import React from 'react';
 import './style.css';
-import { Menu } from '../Menu';
 
 export const ONas = () => {
   return (
-    <div className="ONas">
-      <header className="ONas__hlavicka">
+    <div className="oNas">
+      <header className="oNas__hlavicka">
         <h1>O nás</h1>
       </header>
-      <Menu />
-      <div className="ONas__uvod">
-        <img id="my__dve" src="assets\img\zuzka_a_iva.jpg" alt="Zuzka a Iva" />
-        <p className="ONas__text">
+
+      <div className="oNas__uvod">
+        <img
+          className="my__dve"
+          src="assets\img\zuzka_a_iva.jpg"
+          alt="Zuzka a Iva"
+        />
+      </div>
+      <div className="oNas__text">
+        <p>
           Sme dievčatá zo Slovenska, obe momentálne žijúce v Prahe. Praha nám
           otvorila dvere k pesterejšiemu kultúrnemu životu ale aj pracovným
           príležitostiam. U každej z nás bola cesta do Prahy trochu iná a hoci
           sa na rodnú hruď radi vraciame a ťahá nás tam najmä príroda, sme tu
           spokojné. Pracovných možností je síce veľa, ale nie každá pracovná
           pozícia je pre nás vyhovujúca.
-          <br />
+        </p>
+        <p>
           Zuzka je skôr samostatná osobnosť žijúca si svoje vlastné sny, so
           širokým prehľadom a možnosťami uplatnenia sa. Vyskúšala už všelijakú
           prácu, od ..... až po ...... Jej zápal pre sebavzdelávanie na jej
@@ -30,7 +36,8 @@ export const ONas = () => {
           budeme..vlastne aj tú školu skončila už s prvým mláďaťom na rukách.
           Počas materskej v sebe objavila tvorivého ducha a nesmiernu chuť niečo
           pekné a praktické produkovať.
-          <br />
+        </p>
+        <p>
           Ako to tak býva, Iva sa na sklonku materskej "dovolenky" dostala k
           otázke, ako tento svoj motor využiť na dnešnom trhu práce. Oči jej
           pritom zastali na opakovane vyskakujúcej reklame na kurzy Czechitas,
@@ -41,12 +48,25 @@ export const ONas = () => {
           pozície v IT sú až vysnené. Preto sme sa obe rozhodli pre kurz
           Digitálna akadémia web, ktorý organizuje Czechitas, na ktorom sme sa
           stretli.
-          <br />
+        </p>
+        <p>
           Spojilo nás spoločné nadšenie pre tvorenie rukami, pre jogu a starosť
           o životné prostredie. Po pár rozhovoroch sme sa rozhodli spoločne
           pustiť do záverečného projektu. A tak pomaly vzniká "Trefa na kôš".
         </p>
       </div>
+      <footer className="oNas__kontakt">
+        <h3>A keby vás zaujímali aj iné naše výtvory, tu ich nájdete:</h3>
+        <p>
+          <strong>Zuzka:</strong>
+        </p>
+        <a href="https://github.com/Zuzike">https://github.com/Zuzike </a>
+
+        <p>
+          <strong>Ivka:</strong>
+        </p>
+        <a href="https://github.com/IvaPlas">https://github.com/IvaPlas </a>
+      </footer>
     </div>
   );
 };

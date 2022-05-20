@@ -8,3 +8,49 @@ html {
   font-family: 'Raleway', sans-serif;
   background-color: #96f0f799;
 }
+.menu__navigace {
+  /*width: 35rem;*/
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.menu__navigace--domov,
+.menu__navigace--o__projekte,
+.menu__navigace--o__nas {
+  text-align: center;
+}
+
+.menu__navigace--domov:hover,
+.menu__navigace--o__projekte:hover,
+.menu__navigace--o__nas:hover {
+  transform: translateY(-5px);
+}
+
+.btn__nav {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.btn--domov,
+.btn--o_nas,
+.btn--o__projekte {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3rem;
+}
+
+.btn--o__projekte {
+  background-image: url('./img/icons8-recycle-64.png');
+}
+
+.btn--o_nas {
+  background-image: url('./img/icons8-best-friend-64.png');
+}
+
+.btn--domov {
+  background-image: url('./img/icons8-home-page-100.png');
+}
