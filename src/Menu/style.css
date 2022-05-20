@@ -1,37 +1,48 @@
 .Menu__navigace {
-  position: absolute;
-  right: 80px;
-  top: 80px;
-  height: 35rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.Menu__navigace--domov,
+.Menu__navigace--o__projekte,
+.Menu__navigace--o__nas {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* justify-content: space-between; */
-  font-size: 10px;
+}
+
+.Menu__navigace--domov:hover,
+.Menu__navigace--o__projekte:hover,
+.Menu__navigace--o__nas:hover {
+  transform: translateY(-5px);
 }
 
 .btn__nav {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  /*background-color: #37b18f99;*/
 }
-.btn--projekt {
+
+.btn--domov,
+.btn--o_nas,
+.btn--o__projekte {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3rem;
+}
+
+.btn--o__projekte {
   background-image: url('./img/icons8-recycle-64.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 3rem;
 }
-.btn--my {
+
+.btn--o_nas {
   background-image: url('./img/icons8-best-friend-64.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 3rem;
-  /*background-size: cover;*/
 }
+
 .btn--domov {
   background-image: url('./img/icons8-home-page-100.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px;
 }

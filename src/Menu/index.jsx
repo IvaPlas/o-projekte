@@ -3,16 +3,24 @@ import './style.css';
 
 export const Menu = () => {
   return (
-    <div className="Menu__navigace">
-      <button className="btn__nav btn--domov"></button>
-      <p>Domov</p>
-      <button className="btn__nav btn--projekt"></button>
-      <p>O projekte</p>
-      <button className="btn__nav btn--my"></button>
-      <p>O nás</p>
-      {/*<a href="">Domov <i class=""></i></a>
+    <>
+      <div className="Menu__navigace">
+        <div className="Menu__navigace--domov">
+          <button className="btn__nav btn--domov"></button>
+          <p>Domov</p>
+        </div>
+        <div className="Menu__navigace--o__projekte">
+          <button className="btn__nav btn--o__projekte"></button>
+          <p>O projekte</p>
+        </div>
+        <div className="Menu__navigace--o__nas">
+          <button className="btn__nav btn--o_nas"></button>
+          <p>O nás</p>
+        </div>
+        {/*<a href="">Domov <i class=""></i></a>
   <a href="">O projekte</a>
 <a href="">O nás</a>*/}
-    </div>
+      </div>
+    </>
   );
 };
