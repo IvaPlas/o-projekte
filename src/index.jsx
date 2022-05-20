@@ -7,48 +7,36 @@ import { Projekt } from './Projekt';
 import './style.css';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
-export const App = () => {
+export const App = () => (
+  <nav>
+    <Link to="/domov">Domov</Link>
+    <Link to="/oProjekte">O projekte</Link>
+    <Link to="/oNas">O nás</Link>
+
+    <Outlet />
+  </nav>
+);
+{
+  /*
   return (
     <>
-      <div className="Menu__navigace">
-        <Link to="/Menu__navigace--domov">
-          <div className="Menu__navigace--domov">
-            {' '}
-            |<button className="btn__nav btn--domov"></button>
-            <p>Domov</p>
-          </div>
-        </Link>
-
-        <Link to="/Menu__navigace--o__projekte">
-          <div className="Menu__navigace--o__projekte">
-            <button className="btn__nav btn--o__projekte"></button>
-            <p>O projekte</p>
-          </div>
-        </Link>
-
-        <Link to="/Menu__navigace--o__nas">
-          <div className="Menu__navigace--o__nas">
-            <button className="btn__nav btn--o_nas"></button>
-            <p>O nás</p>
-          </div>
-        </Link>
-
-        {/*<a href="">Domov <i class=""></i></a>
-<a href="">O projekte</a>
-<a href="">O nás</a>*/}
-      </div>
-      <Outlet />
+      <Domov />
     </>
   );
-};
+  {
+    /*<Domov />
+    <ONas />
+    <Projekt />
+  </>*/
+}
 
 createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/Menu__navigace" element={<Menu />}>
-        <Route path="/Menu__navigace--domov" element={<Domov />} />
-        <Route path="/Menu__navigace--o__nas" element={<ONas />} />
-        <Route path="/Menu__navigace--o__projekte" element={<Projekt />} />
+      <Route path="/" element={<App />}>
+        <Route path="domov" element={<Domov />} />
+        <Route path="oNas" element={<ONas />} />
+        <Route path="oProjekte" element={<Projekt />} />
       </Route>
     </Routes>
   </BrowserRouter>,

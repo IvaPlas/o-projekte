@@ -17,9 +17,6 @@ export const Menu = () => {
           <button className="btn__nav btn--o_nas"></button>
           <p>O nás</p>
         </div>
-        {/*<a href="">Domov <i class=""></i></a>
-  <a href="">O projekte</a>
-<a href="">O nás</a>*/}
       </div>
     </>
   );
