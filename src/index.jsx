@@ -7,7 +7,7 @@ import { Projekt } from './Projekt';
 import './style.css';
 
 const App = () => {
-  return <Menu />;
+  return <ONas />;
 };
 
 createRoot(document.querySelector('#app')).render(<App />);
