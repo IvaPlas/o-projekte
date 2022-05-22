@@ -10,8 +10,8 @@ export const ONas = () => {
 
       <div className="oNas__text">
         <p>
-          Sme dievčatá zo Slovenska, obe momentálne žijúce v Prahe. Praha nám
-          otvorila dvere k pesterejšiemu kultúrnemu životu ale aj pracovným
+          Sme dievčatá zo Slovenska, obe momentálne žijúce v Prahe. Tá nám
+          otvorila dvere k pesterejšiemu kultúrnemu životu, ale aj pracovným
           príležitostiam. U každej z nás bola cesta do Prahy trochu iná a hoci
           sa na rodnú hruď radi vraciame a ťahá nás tam najmä príroda, sme tu
           spokojné. Pracovných možností je síce veľa, ale nie každá pracovná
@@ -20,27 +20,29 @@ export const ONas = () => {
         <p>
           Zuzka je skôr samostatná osobnosť žijúca si svoje vlastné sny, so
           širokým prehľadom a možnosťami uplatnenia sa. Vyskúšala už všelijakú
-          prácu, od kreatívnej činnosti na vlastných až po finančné pozície aj v
-          korporátoch aj neziskovom sektore. Jej zápal pre sebavzdelávanie na
-          jej CV-čku vidieť už z diaľky. Množstvo absolvovaných kurzov svedčí o
-          tom, že stále hľadá v čom by jej kreativita mohla vynikúť. <br />
+          prácu, od kreatívnej činnosti na vlastných nohách až po finančné
+          pozície v korporátoch aj neziskovom sektore. Jej zápal pre
+          sebavzdelávanie na jej CV-čku vidieť už z diaľky. Množstvo
+          absolvovaných kurzov svedčí o tom, že stále hľadá v čom by jej
+          kreativita mohla vynikúť. <br />
           Iva to má s rozbehom kariéry trochu zložitejšie. Má tri deti a je s
-          nimi už dlho doma. Vyštudovala paleontológiu, obor síce zaujímavý ale,
-          ktorého možnosti uplatnenia sa na pracovnom trhu sú minimálne a
-          vlastne školu skončila prakticky už s prvým mláďaťom na rukách. Počas
-          materskej však v sebe objavila tvorivého ducha a nesmiernu chuť niečo
-          pekné a praktické produkovať. Ako to tak býva, sa na sklonku materskej
-          "dovolenky" dostala k otázke, ako tento svoj motor využiť na dnešnom
-          trhu práce. Oči jej pritom zastali na opakovane vyskakujúcej reklame
-          na kurzy Czechitas, ktoré na vstupe do IT podporujú práve ženy, ktoré
-          rozmýšľajú podobne ako my dve. Zuzka v práci v korporátoch nevidela
-          žiadnu perspektívu a začala sa obzerať po možnosti sa lepšie
-          kvalifikovať. Natrafila na kurzy Czechitas a niečo, čo pred 10 rokmi
-          bolo ešte nemysliteľné - študovať IT bez matematiky ;), zrazu vyzeralo
-          ako skvelá príležitosť. Práca s počítačom už dnes nie je nič výnimočné
-          a výhody ponúkajúce pracovné pozície v IT sú až vysnené. Preto sme sa
-          obe rozhodli pre kurz Digitálna akadémia web, ktorý organizuje
-          Czechitas, na ktorom sme sa stretli.
+          nimi doma už celkom dlho. Vyštudovala paleontológiu, obor síce
+          zaujímavý, avšak na dnešnom pracovnom trhu prakticky
+          neuplatniteľný...a vlastne už tú školu skončila s prvým mláďaťom na
+          rukách. Počas materskej však v sebe objavila tvorivého ducha a
+          nesmiernu chuť niečo pekné a praktické produkovať. Ako to tak býva, na
+          sklonku materskej "dovolenky" sa dostala k otázke, čo ďalej a ako
+          tento svoj motor využiť na dnešnom trhu práce. Oči jej pritom zastali
+          na opakovane vyskakujúcej reklame na kurzy Czechitas, ktoré na vstupe
+          do IT podporujú práve ženy, ktoré rozmýšľajú podobne ako my dve. Zuzka
+          v práci v korporátoch nevidela žiadnu perspektívu a začala sa obzerať
+          po možnosti sa lepšie kvalifikovať. Tiež natrafila na kurzy Czechitas
+          a niečo, čo pred 10 rokmi bolo ešte nemysliteľné - študovať IT bez
+          matematiky ;), zrazu vyzeralo ako skvelá príležitosť. Práca s
+          počítačom už dnes nie je nič výnimočné a výhody ponúkajúce pracovné
+          pozície v IT sú až vysnené. Preto sme sa obe rozhodli pre kurz
+          Digitálna akadémia web, ktorý organizuje Czechitas, na ktorom sme sa
+          stretli.
         </p>
         <p>
           Spojilo nás spoločné nadšenie pre tvorenie rukami, pre jogu a starosť
@@ -51,7 +53,7 @@ export const ONas = () => {
       </div>
 
       <footer className="oNas__kontakt">
-        <h3>A keby vás zaujímali aj iné naše výtvory, tu ich nájdete:</h3>
+        <h3>Ak by vás zaujímali ďalšie naše výtvory, tu ich nájdete:</h3>
         <div className="oNas__kontakt--odkazy">
           <div>
             <p>

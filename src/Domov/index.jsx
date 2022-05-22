@@ -5,12 +5,12 @@ export const Domov = () => {
   return (
     <div className="domov">
       <header className="domov__hlavicka">
-        <h1>Vitajte na našich mikrostránkach</h1>
+        <h1>Vitajte na mikrostránkach Zuzky a Ivi</h1>
       </header>
       <p className="domov__text">
-        Chceli by sme Vám v skratke predstaviť náš projekt, ktorý chystáme v
-        rámci akadémie Czechitas. Môžete sa dozvedieť aj o nás, inšpiráciách a
-        čo za tým všetkým je.
+        Ako študentky Digitálnej akadémie web, oraganizácie Czechitas by sme vám
+        radi v skratke predstavili záverečný projekt, ktorý chystáme. Dozviete
+        sa niečo o nás, našich inšpiráciách a čo za tým všetkým je.
       </p>
     </div>
   );

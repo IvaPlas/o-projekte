@@ -1,31 +1,17 @@
 .domov {
   text-align: center;
   padding: 3rem;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-    border-radius: 10px;
-max-width: 26rem;
-  max-width: 26rem;*/
   margin: auto;
 }
-
-/*.domov__obsah {
-  font-size: 1.5rem;
-  line-height: 1.6;
-  margin: 2rem;
-}*/
 
 .domov__hlavicka {
   text-align: center;
   padding: 3rem;
   font-size: 1.2rem;
   line-height: 1.6;
-  margin: 2rem;
 }
 
 .domov__text {
   font-size: 1.5rem;
   line-height: 1.6;
-  margin: 2rem;
 }
