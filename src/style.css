@@ -12,7 +12,7 @@ html {
 }
 
 .menu__navigace {
-  width: 35rem;
+  /* width: 35rem; */
   display: flex;
   justify-content: space-evenly;
   font-size: 12px;
