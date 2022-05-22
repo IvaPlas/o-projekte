@@ -4,17 +4,10 @@ import './style.css';
 export const ONas = () => {
   return (
     <div className="oNas">
-      <header className="oNas__hlavicka">
+      <div className="oNas__hlavicka">
         <h1>O nás</h1>
-      </header>
-
-      <div className="oNas__uvod">
-        <img
-          className="my__dve"
-          src="assets\img\zuzka_a_iva.jpg"
-          alt="Zuzka a Iva"
-        />
       </div>
+
       <div className="oNas__text">
         <p>
           Sme dievčatá zo Slovenska, obe momentálne žijúce v Prahe. Praha nám
@@ -27,45 +20,52 @@ export const ONas = () => {
         <p>
           Zuzka je skôr samostatná osobnosť žijúca si svoje vlastné sny, so
           širokým prehľadom a možnosťami uplatnenia sa. Vyskúšala už všelijakú
-          prácu, od ..... až po ...... Jej zápal pre sebavzdelávanie na jej
-          CV-čku vidieť už z diaľky. Množstvo absolvovaných kurzov svedčí o tom,
-          že stále hľadá v čom by jej kreativita mohla vynikúť. Iva to má s
-          rozbehom kariéry trochu zložitejšie. Má tri deti a je s nimi doma už
-          dlho. Na materskú sa dostala hňeď po skončení vysokej školy, ktorá
-          možnosti uplatnenia sa na pracovnom trhu prakticky nemá,a čo si
-          budeme..vlastne aj tú školu skončila už s prvým mláďaťom na rukách.
-          Počas materskej v sebe objavila tvorivého ducha a nesmiernu chuť niečo
-          pekné a praktické produkovať.
-        </p>
-        <p>
-          Ako to tak býva, Iva sa na sklonku materskej "dovolenky" dostala k
-          otázke, ako tento svoj motor využiť na dnešnom trhu práce. Oči jej
-          pritom zastali na opakovane vyskakujúcej reklame na kurzy Czechitas,
-          ktoré na vstupe do IT podporujú práve ženy, ktoré rozmýšľajú podobne
-          ako my obe. Zuzka........(ako si sa dostala ku kruzu czechitas, nieco
-          ako mam ja ze po materske..ablablab, jednu vetu).............. Práca s
-          počítačom už dnes nie je nič výnimočné a výhody ponúkajúce pracovné
-          pozície v IT sú až vysnené. Preto sme sa obe rozhodli pre kurz
-          Digitálna akadémia web, ktorý organizuje Czechitas, na ktorom sme sa
-          stretli.
+          prácu, od kreatívnej činnosti na vlastných až po finančné pozície aj v
+          korporátoch aj neziskovom sektore. Jej zápal pre sebavzdelávanie na
+          jej CV-čku vidieť už z diaľky. Množstvo absolvovaných kurzov svedčí o
+          tom, že stále hľadá v čom by jej kreativita mohla vynikúť. <br />
+          Iva to má s rozbehom kariéry trochu zložitejšie. Má tri deti a je s
+          nimi už dlho doma. Vyštudovala paleontológiu, obor síce zaujímavý ale,
+          ktorého možnosti uplatnenia sa na pracovnom trhu sú minimálne a
+          vlastne školu skončila prakticky už s prvým mláďaťom na rukách. Počas
+          materskej však v sebe objavila tvorivého ducha a nesmiernu chuť niečo
+          pekné a praktické produkovať. Ako to tak býva, sa na sklonku materskej
+          "dovolenky" dostala k otázke, ako tento svoj motor využiť na dnešnom
+          trhu práce. Oči jej pritom zastali na opakovane vyskakujúcej reklame
+          na kurzy Czechitas, ktoré na vstupe do IT podporujú práve ženy, ktoré
+          rozmýšľajú podobne ako my dve. Zuzka v práci v korporátoch nevidela
+          žiadnu perspektívu a začala sa obzerať po možnosti sa lepšie
+          kvalifikovať. Natrafila na kurzy Czechitas a niečo, čo pred 10 rokmi
+          bolo ešte nemysliteľné - študovať IT bez matematiky ;), zrazu vyzeralo
+          ako skvelá príležitosť. Práca s počítačom už dnes nie je nič výnimočné
+          a výhody ponúkajúce pracovné pozície v IT sú až vysnené. Preto sme sa
+          obe rozhodli pre kurz Digitálna akadémia web, ktorý organizuje
+          Czechitas, na ktorom sme sa stretli.
         </p>
         <p>
           Spojilo nás spoločné nadšenie pre tvorenie rukami, pre jogu a starosť
           o životné prostredie. Po pár rozhovoroch sme sa rozhodli spoločne
           pustiť do záverečného projektu. A tak pomaly vzniká "Trefa na kôš".
         </p>
+        <hr />
       </div>
+
       <footer className="oNas__kontakt">
         <h3>A keby vás zaujímali aj iné naše výtvory, tu ich nájdete:</h3>
-        <p>
-          <strong>Zuzka:</strong>
-        </p>
-        <a href="https://github.com/Zuzike">https://github.com/Zuzike </a>
-
-        <p>
-          <strong>Ivka:</strong>
-        </p>
-        <a href="https://github.com/IvaPlas">https://github.com/IvaPlas </a>
+        <div className="oNas__kontakt--odkazy">
+          <div>
+            <p>
+              <strong>Zuzka:</strong>
+            </p>
+            <a href="https://github.com/Zuzike">https://github.com/Zuzike </a>
+          </div>
+          <div>
+            <p>
+              <strong>Ivka:</strong>
+            </p>
+            <a href="https://github.com/IvaPlas">https://github.com/IvaPlas </a>
+          </div>
+        </div>
       </footer>
     </div>
   );

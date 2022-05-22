@@ -7,31 +7,33 @@ import './style.css';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 export const App = () => (
-  <nav className="menu__navigace">
-    <div className="menu__navigace--domov">
-      <button className="btn__nav btn--domov"></button>
+  <>
+    <nav className="menu__navigace">
+      <div className="menu__navigace--domov">
+        <button className="btn__nav btn--domov"></button>
+        <Link className="odkaz__domov" to="/domov">
+          Domov {''}
+        </Link>
+      </div>
 
-      <Link className="odkaz__domov" to="/domov">
-        Domov {''}
-      </Link>
-    </div>
-    <div className="menu__navigace--o__projekte">
-      <button className="btn__nav btn--o__projekte"></button>
+      <div className="menu__navigace--o__projekte">
+        <button className="btn__nav btn--o__projekte"></button>
 
-      <Link className="odkaz__projekt" to="/oProjekte">
-        O projekte
-      </Link>
-    </div>
-    <div className="menu__navigace--o__nas">
-      <button className="btn__nav btn--o_nas"></button>
+        <Link className="odkaz__projekt" to="/oProjekte">
+          O projekte
+        </Link>
+      </div>
+      <div className="menu__navigace--o__nas">
+        <button className="btn__nav btn--o_nas"></button>
 
-      <Link className="odkaz__oNas" to="/oNas">
-        O nás
-      </Link>
-    </div>
+        <Link className="odkaz__oNas" to="/oNas">
+          O nás
+        </Link>
+      </div>
+    </nav>
 
     <Outlet />
-  </nav>
+  </>
 );
 
 createRoot(document.querySelector('#app')).render(

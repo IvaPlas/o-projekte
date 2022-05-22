@@ -1,11 +1,15 @@
-.oNas {
+.oNas__hlavicka {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 50rem;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 1.2rem;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url('./img/zuzka_a_iva.jpg');
+  background-position: 20% 40%;
+  background-size: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  min-height: 15rem;
+  opacity: 0.8;
 }
 
 .oNas__uvod {
@@ -17,22 +21,26 @@
 .my__dve {
   width: 50%;
   border-radius: 25px;
-  /*margin: 1rem;*/
 }
 
 .oNas__text > p {
-  margin: 1rem;
+  margin: 1rem 1rem 2rem 1rem;
   text-align: center;
   line-height: 1.6;
 }
 
 .oNas__kontakt {
-  position: absolute;
-  top: 10rem;
-  left: 1rem;
-  text-align: left;
-  width: 5rem;
+  margin-bottom: 5rem;
 }
+.oNas__kontakt--odkazy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.oNas__kontakt {
+  text-align: center;
+}
+
 .oNas__kontakt > p {
   padding-right: 1rem;
+  text-align: center;
 }
