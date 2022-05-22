@@ -12,12 +12,13 @@ html {
 }
 
 .menu__navigace {
-  /* width: 35rem; */
   display: flex;
   justify-content: space-evenly;
-  font-size: 12px;
+  font-size: 15px;
   margin: auto;
   padding: 2rem;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .menu__navigace--domov,
@@ -32,11 +33,12 @@ html {
 .menu__navigace--o__projekte:hover,
 .menu__navigace--o__nas:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .btn__nav {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 
@@ -45,7 +47,8 @@ html {
 .btn--o__projekte {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 3rem;
+  background-size: 4rem;
+  cursor: pointer;
 }
 
 .btn--o__projekte {
